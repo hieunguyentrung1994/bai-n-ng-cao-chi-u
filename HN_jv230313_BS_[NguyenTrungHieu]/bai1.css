@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#head{
+    text-align: center;
+    color: blue;
+    margin-top: 30px;
+}
+#body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#bangtieude{
+    margin-top: 10px;
+}
+table{
+    border: 1px solid black;
+}
+#bangtieude{
+    margin-top: 10px;
+}
+#bangtieude th{
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+.noidung{
+    border: 1px solid black;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bai1.css" />
+  </head>
+  <body>
+    <div id="head">
+      <h1>Rikkei Academy</h1>
+    </div>
+    <div id="body">
+      <div>
+        <form id="main-form">
+          <h2>Thông tin học viên</h2>
+          <label for="name">Họ và tên</label>
+          <input
+            type="text"
+            name="name"
+            class="name"
+            id="name"
+            placeholder="vui lòng nhập tên"
+          /><br />
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            class="email"
+            id="email"
+            placeholder="vui lòng nhập Email"
+          /><br />
+          <label for="phone">Số điện thoại:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="vui lòng nhập số điện thoai"
+          /><br />
+          <label>quê quán</label>
+          <input
+            type="text"
+            name="home"
+            class="home"
+            id="home"
+            placeholder="vui lòng nhập quê quán"
+          />
+          <div>
+            <label id="grender"
+              >giới tính
+              <input type="radio" name="grender" id="grender" value="nam" />nam
+              <input type="radio" name="grender" id="nu" value="nu" />nữ
+            </label>
+          </div>
+          <button id="luu">lưu lại</button>
+        </form>
+      </div>
+      <div>
+        <table>
+          <h2>Danh sách học viên</h2>
+          <div id="search">
+            <label>Tìm kiếm tên học viên:</label>
+            <input type="text" name="search" class="search" />
+            <button id="btn-search">search</button>
+          </div>
+          <div >
+            <tr id="bangtieude">
+              <th>#</th>
+              <th>Họ tên</th>
+              <th>Email</th>
+              <th>Điện thoại</th>
+              <th>Địa chỉ</th>
+              <th>Gender</th>
+              <th>hành động</th>
+              <th>
+                <button>sắp xếp alpha b</button>
+              </th>
+            </tr>
+          </div>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./bai1.js"></script>
+  </body>
+</html>
